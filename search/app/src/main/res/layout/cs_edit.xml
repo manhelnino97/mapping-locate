@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:background="#FFFFFF"
+    android:id="@+id/scroll"
+    >
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:orientation="horizontal"
+            android:background="#FFFFFF">
+
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                />
+
+            <LinearLayout
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                >
+                <ImageButton
+                    android:id="@+id/btnleft"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent" />
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true">
+
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true">
+
+                    <ImageButton
+                        android:id="@+id/btnright"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:background="@android:color/transparent" />
+
+                </LinearLayout>
+
+
+                <ImageButton
+                    android:id="@+id/btn_img"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:src="@drawable/btn_addimg"
+                   />
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/cs_type"
+                android:text="@string/text_type"
+                android:textSize="16sp"
+                android:textColor="#30a40d"/>
+
+                <TextView
+                    android:id="@+id/tvtype"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cs"
+                    android:textSize="16sp" />
+
+            <View
+                android:id="@+id/UnderLine"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="2dp"
+                android:background="#a7a6a9" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+                android:textSize="16sp"
+                android:textColor="#30a40d"/>
+
+            <EditText
+                android:id="@+id/edtname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:textSize="16sp"
+                android:maxLength="50"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="2dp"
+                android:background="#a7a6a9" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/cs_marker"
+                android:text="@string/text_add"
+                android:textSize="16sp"
+                android:textColor="#30a40d"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <EditText
+                    android:id="@+id/edtadd"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_weight="9"
+                    android:background="@android:color/transparent"/>
+
+                <ImageButton
+                    android:id="@+id/getLocation"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:src="@drawable/btn_gps"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="2dp"
+                android:background="#a7a6a9" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phone_number"
+                android:textSize="16sp"
+                android:textColor="#30a40d"
+                android:drawableLeft="@drawable/cs_phone"/>
+
+            <EditText
+                android:id="@+id/edtphone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:textSize="16sp"
+                android:inputType="phone"
+                android:maxLength="20"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="2dp"
+                android:background="#a7a6a9" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+
+
+                <CheckBox
+                    android:id="@+id/send"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/send_delivery"
+                    android:layout_marginRight="5dp"
+                    android:buttonTint="#30a40d"/>
+
+                <CheckBox
+                    android:id="@+id/receive"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/receive_delivery"
+                    android:buttonTint="#30a40d"/>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/service"
+                android:textSize="16sp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#30a40d"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:weightSum="10">
+                <ImageView
+                    android:id="@+id/btn_addservice"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/circle_add"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"/>
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/listservice"
+                    style="@style/TwoWayView"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="9"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/payment"
+                android:textSize="16sp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#30a40d"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:weightSum="10">
+                <ImageView
+                    android:id="@+id/btn_addpayment"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/circle_add"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"/>
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/listpayment"
+                    style="@style/TwoWayView"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="9"/>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/cs_note"
+                android:text="@string/text_note"
+                android:textSize="16sp"
+                android:textColor="#30a40d"/>
+
+            <EditText
+                android:id="@+id/edtnote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:textSize="16sp"
+                android:maxLength="200"
+                android:hint="@string/memo"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="2dp"
+                android:background="#a7a6a9" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+
+                <ImageButton
+                    android:id="@+id/btn_add_tag"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_create" />
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/tag"
+                    style="@style/TwoWayView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:id="@+id/btn_cancel"
+                    android:layout_width="135dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/btn_cancel"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="@string/text_cancel"
+                            android:textColor="#FFFFFF"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/btn_edit"
+                    android:layout_width="135dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/cs_btn_edit"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:src="@drawable/cs_edit" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="@string/text_edit"
+                            android:textColor="#FFFFFF"
+                            android:textSize="17sp" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/privacy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/privacy_policy"
+                android:textSize="16dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

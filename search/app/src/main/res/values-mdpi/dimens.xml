@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="menubar_height">60dp</dimen>
+    <dimen name="layout_search">40dp</dimen>
+    <dimen name="button_add_gps">40dp</dimen>
+    <dimen name="margin_bottm_button_add_gps">75dp</dimen>
+    <dimen name="options">30dp</dimen>
+    <dimen name="text_options_size">8sp</dimen>
+    <dimen name="texttimesize">14sp</dimen>
+    <dimen name="delete_tag">12dp</dimen>
+</resources>

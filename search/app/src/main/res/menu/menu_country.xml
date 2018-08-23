@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="日本語"
+        android:icon="@drawable/ic_jp"
+    android:id="@+id/ja"/>
+    <item android:title="中文"
+        android:icon="@drawable/ic_china"
+        android:id="@+id/cn"/>
+    <item android:title="한국어"
+        android:icon="@drawable/ic_kr"
+        android:id="@+id/kr"/>
+    <item android:id="@+id/en"
+        android:icon="@drawable/ic_en"
+        android:title="English" />
+    <item android:title="Español"
+        android:icon="@drawable/ic_sp"
+        android:id="@+id/sp"/>
+    <item android:title="Tiếng việt"
+        android:icon="@drawable/ic_vi"
+        android:id="@+id/vi"/>
+</menu>

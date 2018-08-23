@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Revival Map</string>
+    <string name="title_activity_main">Revival Map</string>
+    <string name="button">home</string>
+    <string name="edt_search">Search here</string>
+    <string name="text_type">Category</string>
+    <string name="text_add">Address</string>
+    <string name="text_note">Note</string>
+    <string name="text_report">Report</string>
+    <string name="text_detail">Details</string>
+    <string name="text_select">Select</string>
+    <string name="text_edit">Edit</string>
+    <string name="text_create">Create</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="privacy_policy"><u>Privacy Policy</u></string>
+    <string name="post_name">Post name</string>
+    <string name="post_code">Post code</string>
+    <string name="branch">Collection branch</string>
+    <string name="time_get">Collect time</string>
+    <string name="memo">Please enter here</string>
+    <string name="week_day">Weekday</string>
+    <string name="week_end">Weekend</string>
+
+    <string name="name">Name</string>
+    <string name="phone_number">Phone number</string>
+    <string name="working_time">Working time</string>
+    <string name="website">Website</string>
+    <string name="send_delivery">Send delivery</string>
+    <string name="receive_delivery">Receive delivery</string>
+    <string name="service">Products and services handled</string>
+    <string name="payment">Payment method</string>
+    <string name="guide_of_road">Road guide</string>
+
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+
+    <string name="vd">Vending Machine</string>
+    <string name="pb">Post Box</string>
+    <string name="cf">Coffee Shop</string>
+    <string name="cs">Convenience Store</string>
+    <string name="sm">Supermarket</string>
+
+    <string name="privacy">Where reasonable and practicable to do so, we will collect your Personal Information only from you. However, in some circumstances we may be provided with information by third parties. In such a case we will take reasonable steps to ensure that you are made aware of the information provided to us by the third party</string>
+
+    <string name="report_violations">Report violations</string>
+    <string name="report_content">Report Content</string>
+    <string name="yes">OK</string>
+    <string name="no">Cancel</string>
+    <string name="message_cancel">Data after cancellation will not be able to recover? Do you want to continue?</string>
+    <string name="message_internet">Can not  connet internet. Please try again!</string>
+    <string name="message_address">Please input address!</string>
+    <string name="restart_app">Please restart application!</string>
+    <string name="internet_and_gps">Can not connect internet and gps</string>
+    <string name="request">Permission Request</string>
+    <string name="question">Before click OK, you must turn on internet connection and location services!</string>
+    <string name="geocoder">Geocoder: Service not available.Please reboot the device!</string>
+    <string name="upload">Please upload images smaller than 10MB</string>
+    <string name="send_success">Send report successful!</string>
+
+    <string name="connect_error">Can not connect to server!</string>
+    <string name="tryagain">Try again</string>
+    <string name="exit">Exit</string>
+
+    <string name="time_duplicate">Existing time is duplication!</string>
+    <string name="time_error">Please select a finish time after the start time!</string>
+    <string name="style_sm">Style</string>
+
+    <string name="coop">Co-op</string>
+    <string name="discount_shop">Discount shop</string>
+    <string name="super_cheap_market">Super cheap market</string>
+    <string name="general_merchandise_store">General merchandise store</string>
+    <string name="high_end_supermarket">High-end supermarket</string>
+    <string name="minimarket">Minimarket</string>
+    <string name="grocery_store">Grocery store</string>
+
+</resources>

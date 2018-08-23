@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Máy bán hàng tự động"></item>
+    <item android:title="Hòm thư"></item>
+    <item android:title="Quán cà phê"></item>
+    <item android:title="Cửa hàng tiện lợi"></item>
+    <item android:title="Siêu thị"></item>
+</menu>

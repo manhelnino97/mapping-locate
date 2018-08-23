@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Revival Map</string>
+    <string name="title_activity_main">Revival Map</string>
+    <string name="button">home</string>
+    <string name="edt_search">Busca aquí</string>
+    <string name="text_type">Categoría</string>
+    <string name="text_add">Dirección</string>
+    <string name="text_note">Nota</string>
+    <string name="text_report">Informe</string>
+    <string name="text_detail">Detalle</string>
+    <string name="text_select">Seleccionar</string>
+    <string name="text_edit">Editar</string>
+    <string name="text_create">Crear</string>
+    <string name="text_cancel">Cancelar</string>
+    <string name="privacy_policy"><u>Política de privacidad</u></string>
+    <string name="post_name">Nombre del puesto</string>
+    <string name="post_code">Código postal</string>
+    <string name="branch">Rama de coleccion</string>
+    <string name="time_get">Recoge tiempo</string>
+    <string name="memo">Por favor ingrese aquí</string>
+    <string name="week_day">Día laborable</string>
+    <string name="week_end">Fin de semana</string>
+
+    <string name="name">Nombre</string>
+    <string name="phone_number">Número de teléfono</string>
+    <string name="working_time">Tiempo de trabajo</string>
+    <string name="website">Sitio web</string>
+    <string name="send_delivery">Enviar entrega</string>
+    <string name="receive_delivery">Recibir entrega</string>
+    <string name="service">Productos y servicios manejados</string>
+    <string name="payment">Método de pago</string>
+    <string name="guide_of_road">Guía de ruta</string>
+
+    <string name="camera">Cámara</string>
+    <string name="gallery">Galería</string>
+
+    <string name="vd">Máquina expendedora</string>
+    <string name="pb">Buzón</string>
+    <string name="cf">Cafetería</string>
+    <string name="cs">Tienda de conveniencia</string>
+    <string name="sm">Supermercado</string>
+
+    <string name="privacy">Where reasonable and practicable to do so, we will collect your Personal Information only from you. However, in some circumstances we may be provided with information by third parties. In such a case we will take reasonable steps to ensure that you are made aware of the information provided to us by the third party</string>
+
+    <string name="report_violations">Reportar violaciones</string>
+    <string name="report_content">Reportar contenido</string>
+    <string name="no">cancelar</string>
+    <string name="message_cancel">Los datos después de la cancelación no podrán recuperarse? Quieres continuar?</string>
+    <string name="message_internet">No se puede conectar a internet. Inténtalo de nuevo!</string>
+    <string name="message_address">Por favor ingrese la dirección!</string>
+    <string name="restart_app">Por favor, reinicie la aplicación!</string>
+    <string name="internet_and_gps">No se puede conectar a internet y gps</string>
+    <string name="request">Solicitud de permiso</string>
+    <string name="question">Antes de hacer clic en Aceptar, debe activar los servicios de conexión a Internet y de ubicación!</string>
+    <string name="geocoder">Geocoder: Servicio no disponible. Reinicia el dispositivo!</string>
+    <string name="upload">Cargue imágenes de menos de 10 MB!</string>
+    <string name="send_success">Enviar informe exitoso!</string>
+
+    <string name="connect_error">¡No es posible conectar con el servidor!</string>
+    <string name="tryagain">Inténtalo de nuevo</string>
+    <string name="exit">Salida</string>
+
+    <string name="time_duplicate">El tiempo existente es duplicación!</string>
+    <string name="time_error">Por favor, seleccione una hora de finalización después de la hora de inicio!</string>
+    <string name="style_sm">Estilo</string>
+
+    <string name="coop">Co-op</string>
+    <string name="discount_shop">Discount shop</string>
+    <string name="super_cheap_market">Super cheap market</string>
+    <string name="general_merchandise_store">General merchandise store</string>
+    <string name="high_end_supermarket">High-end supermarket</string>
+    <string name="minimarket">Minimarket</string>
+    <string name="grocery_store">Grocery store</string>
+
+</resources>

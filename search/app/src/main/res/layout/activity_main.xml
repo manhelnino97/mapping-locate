@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_parent">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        tools:context=".MapsActivity" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_search"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/LLayout"
+        android:weightSum="10">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/ic_magnify"
+            android:src="@drawable/ic_search"
+            android:background="@drawable/left"
+            android:layout_weight="0.75"
+           />
+
+        <AutoCompleteTextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:id="@+id/input_search"
+            android:background="#FFFFFF"
+            android:hint="@string/edt_search"
+            android:imeOptions="actionSearch"
+            android:singleLine="true"
+            android:layout_weight="7.25"
+            android:cursorVisible="false" />
+            
+        <ImageView
+            android:id="@+id/btn_clear"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/right"
+            android:layout_weight="0.75"
+            />
+
+        <LinearLayout
+            android:layout_weight="1.25"
+            android:layout_marginStart="10dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:background="@drawable/spinner"
+            android:id="@+id/spinner"
+            android:weightSum="10">
+
+            <ImageView
+                android:id="@+id/img_country"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_add"
+                android:layout_weight="7"
+                tools:ignore="NestedWeights" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_dropdown"
+                android:layout_weight="3"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/margin_bottm_button_add_gps"
+        android:layout_marginEnd="18dp">
+
+        <ImageButton
+            android:id="@+id/ic_add"
+            android:layout_width="@dimen/button_add_gps"
+            android:layout_height="@dimen/button_add_gps"
+            android:background="@drawable/circle_button"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_add"
+            android:layout_marginRight="10dp"
+            android:padding="9dp"
+            />
+
+        <ImageButton
+            android:id="@+id/ic_gps"
+            android:layout_width="@dimen/button_add_gps"
+            android:layout_height="@dimen/button_add_gps"
+            android:background="@drawable/circle_button"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_gps"
+            android:padding="9dp"/>
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/include"
+        style="@style/TwoWayView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/menubar_height"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

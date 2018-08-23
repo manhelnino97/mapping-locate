@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Revival Map</string>
+    <string name="title_activity_main">Revival Map</string>
+    <string name="button">home</string>
+    <string name="edt_search">Tìm kiếm</string>
+    <string name="text_type"> Loại</string>
+    <string name="text_add"> Địa Chỉ</string>
+    <string name="text_note"> Ghi chú</string>
+    <string name="text_report"> Báo cáo</string>
+    <string name="text_detail">Chi tiết</string>
+    <string name="text_edit">Sửa đổi</string>
+    <string name="text_select">Lựa chọn</string>
+    <string name="text_create">Tạo mới</string>
+    <string name="text_cancel">Huỷ bỏ</string>
+    <string name="privacy_policy"><u>Chính sách bảo mật</u></string>
+    <string name="post_name"> Tên post</string>
+    <string name="post_code"> Mã số post</string>
+    <string name="branch"> Chi nhánh thu</string>
+    <string name="time_get"> Thời gian thu</string>
+    <string name="memo">Xin hãy nhập vào đây</string>
+    <string name="week_day">Trong tuần</string>
+    <string name="week_end">Cuối tuần</string>
+
+    <string name="name">Tên</string>
+    <string name="phone_number">Số điện thoại</string>
+    <string name="working_time">Giờ làm việc</string>
+    <string name="website">Trang chủ</string>
+    <string name="send_delivery">Gửi chuyển phát</string>
+    <string name="receive_delivery">Nhận chuyển phát</string>
+    <string name="service">Các sản phẩm dịch vụ cung cấp</string>
+    <string name="payment">Phương thức thanh toán</string>
+    <string name="guide_of_road">Cách đi đến</string>
+
+    <string name="camera">Máy ảnh</string>
+    <string name="gallery">Thư viện</string>
+
+
+    <string name="vd">Máy bán hàng tự động</string>
+    <string name="pb">Hòm thư</string>
+    <string name="cf">Quán cà phê</string>
+    <string name="cs">Cửa hàng tiện lợi</string>
+    <string name="sm">Siêu thị</string>
+
+
+    <string name="privacy">Chúng tôi không cung cấp Thông Tin Khách Hàng cho bất kỳ bên thứ ba nào trừ trường hợp phải thực hiện theo yêu cầu của các cơ quan Nhà nước có thẩm quyền, hoặc theo quy định của pháp luật, hoặc khi việc cung cấp thông tin đó là cần thiết để chúng tôi cung cấp dịch vụ.
+        Ngoài các trường hợp nêu trên, chúng tôi sẽ có thông báo cụ thể cho Khách Hàng khi phải tiết lộ Thông Tin Khách Hàng cho một bên thứ ba. Trong trường hợp này, chúng tôi cam kết sẽ chỉ tiết lộ Thông Tin Khách Hàng khi được sự đồng ý của Khách Hàng.</string>
+
+    <string name="yes">OK</string>
+    <string name="no">Hủy bỏ</string>
+    <string name="report_violations">Báo cáo vi phạm</string>
+    <string name="report_content">Nội dung báo cáo</string>
+    <string name="message_cancel">Dữ liệu sau khi huỷ bỏ sẽ không thể hồi phục? Bạn có muốn tiếp tục?</string>
+    <string name="message_internet">Không thể kết nối internet.Xin thử lại sau!</string>
+    <string name="message_address">Xin hãy nhập địa chỉ!</string>
+    <string name="restart_app">Vui lòng khởi động lại ứng dụng</string>
+    <string name="internet_and_gps">Không có kết nối internet và gps</string>
+    <string name="request">Yêu cầu quyền truy cập</string>
+    <string name="question">Trước khi bấm đồng ý bạn phải bật kết nối internet và dịch vụ vị trí!</string>
+    <string name="geocoder">Geocoder: Dịch vụ không khả dụng.Vui lòng khởi động lại thiết bị!</string>
+    <string name="upload">Xin hãy chọn ảnh nhỏ hơn 10MB!</string>
+    <string name="send_success">Gửi báo cáo thành công!</string>
+
+
+
+    <string name="connect_error">Lỗi kết nối tới máy chủ!</string>
+    <string name="tryagain">Thử lại</string>
+    <string name="exit">Thoát</string>
+    
+    <string name="time_duplicate">Đang tồn tại giờ bị trùng!</string>
+    <string name="time_error">Xin vui lòng chọn giờ kết thúc sau giờ bắt đầu!</string>
+    <string name="style_sm">Loại</string>
+    
+    
+    <string name="coop">Co-op</string>
+    <string name="discount_shop">Cửa hàng giảm giá</string>
+    <string name="super_cheap_market">Siêu thị giá rẻ</string>
+    <string name="general_merchandise_store">Cửa hàng thông dụng</string>
+    <string name="high_end_supermarket">Siêu thị cao cấp</string>
+    <string name="minimarket">Chợ</string>
+    <string name="grocery_store">Cửa hàng tạp hóa</string>
+
+
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Revival Map</string>
+    <string name="title_activity_main">Revival Map</string>
+    <string name="button">home</string>
+    <string name="edt_search">在这里搜索</string>
+    <string name="text_type">类别</string>
+    <string name="text_add">地址</string>
+    <string name="text_note">注意</string>
+    <string name="text_report">报告</string>
+    <string name="text_detail">详情</string>
+    <string name="text_select">选择</string>
+    <string name="text_edit">编辑</string>
+    <string name="text_create">创建</string>
+    <string name="text_cancel">取消</string>
+    <string name="privacy_policy"><u>隐私政策</u></string>
+    <string name="post_name">邮寄姓名</string>
+    <string name="post_code">邮政编码</string>
+    <string name="branch">收集分支</string>
+    <string name="time_get">收集时间</string>
+    <string name="memo">请在这里输入</string>
+    <string name="week_day">平日</string>
+    <string name="week_end">周末</string>
+
+    <string name="name">名称</string>
+    <string name="phone_number">电话号码</string>
+    <string name="working_time">工作时间</string>
+    <string name="website">网站</string>
+    <string name="send_delivery">发送送货</string>
+    <string name="receive_delivery">收货</string>
+    <string name="service">处理的产品和服务</string>
+    <string name="payment">付款方法</string>
+    <string name="guide_of_road">道路指南</string>
+
+    <string name="camera">相机</string>
+    <string name="gallery">画廊</string>
+
+    <string name="vd">售货机</string>
+    <string name="pb">邮政信箱</string>
+    <string name="cf">咖啡店</string>
+    <string name="cs">便利店</string>
+    <string name="sm">超级市场</string>
+
+    <string name="privacy">Where reasonable and practicable to do so, we will collect your Personal Information only from you. However, in some circumstances we may be provided with information by third parties. In such a case we will take reasonable steps to ensure that you are made aware of the information provided to us by the third party</string>
+
+    <string name="report_violations">举报违规行为</string>
+    <string name="report_content">报告内容</string>
+    <string name="no">取消</string>服务不可用。请重启设备
+    <string name="message_cancel">取消后的数据将无法恢复？ 你想继续吗?</string>
+    <string name="message_internet">无法连接互联网. 请再试一次!</string>
+    <string name="message_address">请输入地址!</string>
+    <string name="restart_app">请重启申请！</string>
+    <string name="internet_and_gps">无法连接互联网和GPS</string>
+    <string name="request">许可请求</string>
+    <string name="question">在单击“确定”之前，您必须打开互联网连接和位置服务！</string>
+    <string name="geocoder">Geocoder: 服务不可用。请重启设备!</string>
+    <string name="upload">请上传小于10MB的图片!</string>
+    <string name="send_success">发送报告成功!</string>
+
+    <string name="connect_error">无法连接到服务器!</string>
+    <string name="tryagain">再试一次</string>
+    <string name="exit">出口</string>
+
+    <string name="time_duplicate">现有时间是重复的!</string>
+    <string name="time_error">请在开始时间后选择完成时间!</string>
+    <string name="style_sm">样式</string>
+
+    <string name="coop">Co-op</string>
+    <string name="discount_shop">Discount shop</string>
+    <string name="super_cheap_market">Super cheap market</string>
+    <string name="general_merchandise_store">General merchandise store</string>
+    <string name="high_end_supermarket">High-end supermarket</string>
+    <string name="minimarket">Minimarket</string>
+    <string name="grocery_store">Grocery store</string>
+
+</resources>

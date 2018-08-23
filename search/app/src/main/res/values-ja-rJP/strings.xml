@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">search</string>
+    <string name="title_activity_main">Map</string>
+    <string name="edt_search">ここで検索</string>
+    <string name="text_type">分類</string>
+    <string name="text_add">住所</string>
+    <string name="text_note">メモ</string>
+    <string name="text_report">違反報告</string>
+    <string name="text_detail">詳細</string>
+    <string name="text_select">選択する</string>
+    <string name="text_edit">編集</string>
+    <string name="text_create">作成</string>
+    <string name="text_cancel">キャンセル</string>
+    <string name="privacy_policy"><u>プライバシーポリシーがこちら</u></string>
+    <string name="post_name">ポスト番号</string>
+    <string name="post_code">郵便番号</string>
+    <string name="branch">取集支店</string>
+    <string name="time_get">取集時刻</string>
+    <string name="memo">ここに入力して下さい。</string>
+
+    <string name="week_day">平日</string>
+    <string name="week_end">土日</string>
+
+    <string name="name">名称</string>
+    <string name="phone_number">電話番号</string>
+    <string name="working_time">営業時間</string>
+    <string name="website">公式サイト</string>
+    <string name="send_delivery">荷物発送</string>
+    <string name="receive_delivery">荷物受取</string>
+    <string name="service">取扱い商品・サービス</string>
+    <string name="payment">決剤手段</string>
+    <string name="guide_of_road">アクセス</string>
+
+    <string name="camera">カメラ</string>
+    <string name="gallery">ギャラリー</string>
+
+    <string name="vd">自動販売機</string>
+    <string name="pb">郵便ポスト</string>
+    <string name="cf">コーヒー</string>
+    <string name="cs">コンビニ</string>
+    <string name="sm">スーパーマーケット</string>
+
+    <string name="privacy">我々は、当プライバシーポリシーを掲示し、当プライバシーポリシーに準拠して提供されるサービス（以下「本サービス」といいます）の利用企業・提携企業・団体等（以下「利用企業等」といいます）および本サービスをご利用になる方（以下「ユーザー」といいます）のプライバシーを尊重し、ユーザーの個人情報（以下の定義に従います）の管理に細心の注意を払い、これを取扱うものとします。
+権限を持たない第三者にはユーザの個人情報を絶対に提供せず、ベトナムの法律に沿ってユーザの情報を提供しざるを得ない場合になれば、ユーザに状況を報告させていただきます。</string>
+
+    <string name="report_violations">違反を報告する</string>
+    <string name="report_content">レポートの内容</string>
+    <string name="no">キャンセル</string>
+    <string name="message_cancel">終了後のデータは復旧できません? 続行しますか?</string>
+    <string name="message_internet">インターネットに接続できません.再度お試しください!</string>
+    <string name="message_address">アドレスを入力してください!</string>
+    <string name="restart_app">アプリケーションを再起動してください！</string>
+    <string name="internet_and_gps">インターネットとGPSを接続できません</string>
+    <string name="request">許可リクエスト</string>
+    <string name="question">[OK]をクリックする前に、インターネット接続とロケーションサービスを有効にする必要があります!</string>
+    <string name="geocoder">Geocoder: サービスは利用できません。デバイスを再起動してください!</string>
+    <string name="upload">10MB未満の画像をアップロードしてください!</string>
+    <string name="send_success">レポートを正常に送信!</string>
+
+    <string name="connect_error">サーバーに接続できません!</string>
+    <string name="tryagain">再試行する</string>
+    <string name="exit">出口</string>
+
+    <string name="time_duplicate">既存の時間は重複している!</string>
+    <string name="time_error">開始時間の後に終了時間を選択してください!</string>
+    <string name="style_sm">スタイル</string>
+
+    <string name="coop">コープ</string>
+    <string name="discount_shop">ディスカウントショップ</string>
+    <string name="super_cheap_market">スーパー安い市場</string>
+    <string name="general_merchandise_store">雑貨店</string>
+    <string name="high_end_supermarket">ハイエンドのスーパーマーケット</string>
+    <string name="minimarket">ミニマーケット</string>
+    <string name="grocery_store">食料品店</string>
+
+</resources>

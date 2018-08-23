@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/style1"
+        android:title="@string/coop"/>
+    <item
+        android:id="@+id/style2"
+        android:title="@string/discount_shop"/>
+    <item
+        android:id="@+id/style3"
+        android:title="@string/super_cheap_market"/>
+    <item
+        android:id="@+id/style4"
+        android:title="@string/general_merchandise_store"/>
+    <item
+        android:id="@+id/style5"
+        android:title="@string/high_end_supermarket"/>
+    <item
+        android:id="@+id/style6"
+        android:title="@string/minimarket"/>
+    <item
+        android:id="@+id/style7"
+        android:title="@string/grocery_store"/>
+</menu>
